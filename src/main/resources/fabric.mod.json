@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "petfriends",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Better Pet Friends",
+  "description": "Adds the dog variants from Minecraft 1.21 to Better than Adventure",
   "authors": [
-    "Turnip Labs"
+    "JamDoggie"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"jamdoggie.petfriends.PetFriends"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"jamdoggie.petfriends.PetFriends"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"jamdoggie.petfriends.PetFriends"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"jamdoggie.petfriends.PetFriends"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+    "petfriends.mixins.json"
   ],
 
   "depends": {
